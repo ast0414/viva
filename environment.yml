@@ -1,0 +1,16 @@
+name: viva
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.7
+  - pytorch=1.9
+  - torchvision
+  - torchaudio
+  - nvidia::cudatoolkit=11.1
+  - scikit-learn=0.21
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - tqdm
